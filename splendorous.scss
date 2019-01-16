@@ -63,18 +63,24 @@ body {
 	    margin-left: 50px;
   	}
 		&_size {
-			padding: 0 50px 0;
+			// padding: 0 50px 0;
+			// display: flex;
+	    // justify-content: center;
 		}
 	}
 	&--item__product {
-		padding-top: 45px;
+		// padding-top: 45px;
 		display: flex;
 	}
 	&--item__productsize {
-		padding-right: 50px;
-		text-align: center;
-		padding: 18px 0 18px;
-		width: 225px;
+		padding: 15px 0 15px;
+		// padding-right: 50px;
+		// text-align: center;
+		// padding: 18px 0 18px;
+		// width: 225px;
+		// display: flex;
+    // flex-direction: column;
+    // align-items: center;
 			& .text1 {
     		font-weight: bold;
 			}
@@ -84,24 +90,27 @@ body {
 		background-color: #7e5c88;
 	}
 	.title {
+		margin-left: 50px;
 		display: flex;
-		margin-top: 50px;
+		// margin-top: 50px;
 		&--from {
+			flex-grow: 8;
 			border-bottom: 1px solid #ddd;
-			margin-left: 50px;
-	    flex-basis: 66%;
-	    padding-bottom: 10px;
+			// margin-left: 50px;
+	    // flex-basis: 66%;
+	    // padding-bottom: 10px;
 		}
 		&--about {
-			flex-basis: 17%;
+			flex-grow: 2;
+			// flex-basis: 17%;
 			border-bottom: 1px solid #ddd;
-			margin-left: 100px;
-			padding-bottom: 10px;
+			// margin-left: 100px;
+			// padding-bottom: 10px;
 		}
 	}
 	&--item2 {
 		display: flex;
-		padding: 50px 0 50px;
+		//padding: 50px 0 50px;
 		border-bottom: 1px solid #ddd;
 		position: relative;
 		&::after {
@@ -115,9 +124,10 @@ body {
 		}
 		&__product {
 			&_date {
-				padding: 0 50px 0;
-				width: 225px;
+				// padding: 0 50px 0;
+				// width: 225px;
 				& .text {
+					width: 225px;
 					color: #8c8686;
 					font-size: 14px;
 					padding-top: 15px;
@@ -128,7 +138,7 @@ body {
 				}
 			}
 			&_name {
-				padding: 0 50px 0;
+				// padding: 0 50px 0;
 				& .Name {
 					display: flex;
 					width: 225px;
@@ -171,8 +181,8 @@ body {
 }
 .footer {
 	color: #ddd;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	// padding-bottom: 50px;
+	// padding-top: 50px;
 	border-bottom: 1px solid #ddd;
 	display: flex;
 	font-size: 15px;
@@ -187,13 +197,13 @@ body {
     bottom: 0;
 	}
 	& .content__col {
-		padding: 0 50px 0;
+		// padding: 0 50px 0;
 		width: 225px;
 		& span {
 			font-weight: bold;
 		}
 		& .link_read a {
-			margin-left:132px;
+			// margin-left:132px;
 		}
 		& .link {
 			padding-bottom: 10px;
@@ -241,4 +251,30 @@ body {
 	&_right {
 		float: right;
 	}
+}
+
+.col-4 {
+	width: 25%;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+.style-top {
+	padding-top: 50px;
+}
+.style-bottom {
+	padding-bottom: 50px;
 }
