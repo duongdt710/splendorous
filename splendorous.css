@@ -1,7 +1,6 @@
 body {
-  width: 1333px;
-  margin: auto;
-  font-family: Georgia; }
+  border-top: 4px solid #7e5c88;
+  margin-top: 0; }
 
 .line--color {
   height: 3px;
@@ -10,10 +9,12 @@ body {
 .nav {
   padding-top: 45px;
   display: flex; }
-  .nav--list {
-    padding-left: 10%; }
-  .nav img {
-    margin-left: 15px; }
+  .nav--logo {
+    margin-top: -31px;
+    color: #979797; }
+    .nav--logo h1 {
+      margin-bottom: 10px;
+      color: #96739f; }
   .nav ul {
     font-family: Georgia Regular;
     display: flex; }

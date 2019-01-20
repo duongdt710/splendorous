@@ -1,7 +1,9 @@
 body {
-  width: 1333px;
-  margin: auto;
-	font-family: Georgia;
+	border-top: 4px solid #7e5c88;
+	margin-top: 0;
+ //  width: 1333px;
+ //  margin: auto;
+	// font-family: Georgia;
 }
 .line--color {
 	height: 3px;
@@ -10,12 +12,23 @@ body {
 .nav {
 	padding-top: 45px;
 	display: flex;
+		&--logo {
+				margin-top: -31px;
+				color: #979797;
+			& h1 {
+				margin-bottom: 10px;
+				color: #96739f;
+			}
+			// & span {
+			// 	color: #979797;
+			// }
+		}
 		&--list {
-			padding-left: 10%;
+			// padding-left: 10%;
 		}
-	img {
-		margin-left: 15px;
-		}
+	// img {
+	// 	margin-left: 15px;
+	// 	}
 	ul {
 		font-family: Georgia Regular;
 		display: flex;
