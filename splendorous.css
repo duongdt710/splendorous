@@ -1,6 +1,8 @@
 body {
   border-top: 4px solid #7e5c88;
-  margin-top: 0; }
+  margin-top: 0;
+  width: 1333px;
+  margin: auto; }
 
 .line--color {
   height: 3px;
@@ -15,9 +17,10 @@ body {
     .nav--logo h1 {
       margin-bottom: 10px;
       color: #96739f; }
+  .nav--list {
+    padding-left: 80px; }
   .nav ul {
-    font-family: Georgia Regular;
-    display: flex; }
+    font-family: Georgia Regular; }
     .nav ul li {
       list-style-type: none;
       display: inline-block; }
@@ -25,21 +28,13 @@ body {
       color: white;
       background: #7e5c88; }
     .nav ul a {
-      padding: 62px 20px 28px;
+      padding: 62px 37px 28px;
       text-decoration: none;
       color: #979797; }
 
 .slider {
   position: relative;
   border-bottom: 1px solid #ddd; }
-  .slider::after {
-    content: "";
-    position: absolute;
-    box-shadow: 0 12px 18px 0 #DDD;
-    width: 50%;
-    height: 14px;
-    margin-left: 24%;
-    margin-top: -13px; }
   .slider img {
     width: 1333px;
     margin-top: 55px; }
@@ -58,7 +53,10 @@ body {
   .content--item__productsize {
     padding: 15px 0 15px; }
     .content--item__productsize .text1 {
+      padding-bottom: 8px;
       font-weight: bold; }
+    .content--item__productsize .text2 {
+      padding-top: 8px; }
   .content--item__productsize:hover {
     color: white;
     background-color: #7e5c88; }
@@ -75,14 +73,6 @@ body {
     display: flex;
     border-bottom: 1px solid #ddd;
     position: relative; }
-    .content--item2::after {
-      content: "";
-      position: absolute;
-      box-shadow: 0 10px 18px 0 #DDD;
-      width: 50%;
-      height: 14px;
-      left: 28%;
-      bottom: 0; }
     .content--item2__product_date .text {
       width: 225px;
       color: #8c8686;
@@ -124,18 +114,12 @@ body {
   display: flex;
   font-size: 15px;
   position: relative; }
-  .footer::after {
-    content: "";
-    position: absolute;
-    box-shadow: 0 10px 18px 0 #DDD;
-    width: 50%;
-    height: 14px;
-    margin-left: 24%;
-    bottom: 0; }
   .footer .content__col {
     width: 225px; }
     .footer .content__col span {
       font-weight: bold; }
+    .footer .content__col .link_read {
+      text-align: right; }
     .footer .content__col .link {
       padding-bottom: 10px;
       border-bottom: 1px solid #ddd; }
@@ -192,5 +176,14 @@ body {
 
 .style-bottom {
   padding-bottom: 50px; }
+
+.shadow::after {
+  content: "";
+  position: absolute;
+  box-shadow: 0 10px 18px 0 #DDD;
+  width: 50%;
+  height: 14px;
+  margin-left: 25%;
+  bottom: 0; }
 
 /*# sourceMappingURL=splendorous.css.map */
