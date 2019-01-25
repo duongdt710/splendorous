@@ -1,0 +1,46 @@
+.nav--logo {
+  color: #979797;
+}
+.nav--logo h1 {
+  color: #96739f;
+}
+.nav ul li a:hover {
+  color: white;
+  background: #7e5c88;
+}
+.nav ul a {
+  color: #979797;
+}
+
+.slider button {
+  background: #7e5c88;
+  color: white;
+}
+.slider__img {
+  background: black;
+  color: white;
+}
+
+.content__item-productsize:hover {
+  color: white;
+  background-color: #7e5c88;
+}
+.content__item2-product_date .text span {
+  color: #7e5c88;
+}
+.content__item2-product_name .Name .text i {
+  color: #7e5c88;
+}
+.content__item2-product .text {
+  color: #a09a9a;
+}
+
+.footer .link--icon i:hover {
+  color: #7e5c88;
+}
+
+.text--color {
+  color: #979797;
+}
+
+/*# sourceMappingURL=color.css.map */

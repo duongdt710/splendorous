@@ -12,11 +12,9 @@ body {
 }
 .nav--logo {
   margin-top: -31px;
-  color: #979797;
 }
 .nav--logo h1 {
   margin-bottom: 10px;
-  color: #96739f;
 }
 .nav--list {
   padding-left: 80px;
@@ -25,29 +23,23 @@ body {
   list-style-type: none;
   display: inline-block;
 }
-.nav ul li a:hover {
-  color: white;
-  background: #7e5c88;
-}
 .nav ul a {
   padding: 62px 37px 28px;
   text-decoration: none;
-  color: #979797;
 }
 
 .slider__content {
+  align-items: center;
   display: flex;
   justify-content: space-around;
 }
 .slider a {
-  padding-top: 170px;
   font-size: 25px;
 }
 .slider__text {
   width: 50%;
 }
 .slider__text .margin--left {
-  padding-top: 45px;
   width: 387px;
 }
 .slider__text .margin--left h1 {
@@ -56,16 +48,12 @@ body {
 }
 .slider__text .margin--left button {
   width: 140px;
-  background: #7e5c88;
-  color: white;
   height: 37px;
   border-radius: 20px;
 }
 .slider__img {
   width: 380px;
   height: 380px;
-  background: black;
-  color: white;
   text-align: center;
   border-radius: 50%;
   border: 25px solid #7e5c88;
@@ -89,10 +77,6 @@ body {
 }
 .content__item-productsize .text--color {
   padding-top: 8px;
-}
-.content__item-productsize:hover {
-  color: white;
-  background-color: #7e5c88;
 }
 .content .title {
   width: 100%;
@@ -118,7 +102,6 @@ body {
 }
 .content__item2-product_date .text span {
   font-weight: bold;
-  color: #7e5c88;
 }
 .content__item2-product_name .Name {
   display: flex;
@@ -147,12 +130,6 @@ body {
 }
 .content__item2-product_name .Name .text a {
   text-decoration: none;
-}
-.content__item2-product_name .Name .text i {
-  color: #7e5c88;
-}
-.content__item2-product .text {
-  color: #a09a9a;
 }
 
 .footer {
@@ -187,9 +164,6 @@ body {
 }
 .footer .link--icon i {
   font-size: 40px;
-}
-.footer .link--icon i:hover {
-  color: #7e5c88;
 }
 .footer .link--icon a {
   margin: 10px;
@@ -245,10 +219,6 @@ body {
   bottom: 0;
 }
 
-.text--color {
-  color: #979797;
-}
-
 .style-top {
   padding-top: 50px;
 }
@@ -257,4 +227,4 @@ body {
   padding-bottom: 50px;
 }
 
-/*# sourceMappingURL=splendorous.css.map */
+/*# sourceMappingURL=layout.css.map */

@@ -10,10 +10,8 @@ body {
 	display: flex;
 		&--logo {
 				margin-top: -31px;
-				color: #979797;
 			& h1 {
 				margin-bottom: 10px;
-				color: #96739f;
 			}
 		}
 		&--list {
@@ -25,30 +23,24 @@ body {
 			list-style-type: none;
 			display: inline-block;
 		}
-		li a:hover {
-			color: white;
-			background: #7e5c88;
-		}
 		a {
 			padding: 62px 37px 28px;
 			text-decoration: none;
-			color: #979797;
 		}
 	}
 }
 .slider {
 	&__content {
+		align-items: center;
 		display: flex;
 		justify-content: space-around;
 	}
 	& a {
-		padding-top: 170px;
 		font-size: 25px;
 	}
 	&__text {
 		width: 50%;
 		& .margin--left {
-			padding-top: 45px;
 			width: 387px;
 		& h1 {
 			font-size: 42px;
@@ -56,8 +48,6 @@ body {
 		}
 		& button {
 			width: 140px;
-	    background: #7e5c88;
-	    color: white;
 	    height: 37px;
 	    border-radius: 20px;
 		}
@@ -66,8 +56,6 @@ body {
 	&__img {
 		width: 380px;
 		height: 380px;
-		background: black;
-		color: white;
 		text-align: center;
 		border-radius: 50%;
 		border: 25px solid #7e5c88;
@@ -93,10 +81,6 @@ body {
 			}
 			& .text--color {padding-top: 8px;}
 	}
-	&__item-productsize:hover {
-		color: white;
-		background-color: #7e5c88;
-	}
 	.title {
 		width: 100%;
 		margin-left: 50px;
@@ -121,7 +105,6 @@ body {
 					padding-top: 15px;
 				& span {
 					font-weight: bold;
-					color: #7e5c88;
 					}
 				}
 			}
@@ -152,14 +135,8 @@ body {
 						& a {
 							text-decoration: none;
 						}
-						& i {
-							color: #7e5c88;
-						}
 					}
 				}
-			}
-			& .text {
-				color: #a09a9a;
 			}
 		}
 	}
@@ -192,9 +169,6 @@ body {
 		border-bottom: 1px solid #ddd;
 		& i {
 			font-size: 40px;
-			&:hover {
-				color: #7e5c88;
-			}
 		}
 		& a {
 			margin: 10px;
@@ -242,9 +216,6 @@ body {
     height: 14px;
     margin-left: 25%;
     bottom: 0;
-}
-.text--color {
-	color: #979797;
 }
 .style-top {
 	padding-top: 50px;

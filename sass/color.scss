@@ -1,0 +1,68 @@
+.nav {
+		&--logo {
+				color: #979797;
+			& h1 {
+				color: #96739f;
+			}
+		}
+	ul {
+		li a:hover {
+			color: white;
+			background: #7e5c88;
+		}
+		a {
+			color: #979797;
+		}
+	}
+}
+.slider {
+		& button {
+	    background: #7e5c88;
+	    color: white;
+		}
+		&__img {
+			background: black;
+			color: white;
+		}
+}
+.content {
+	&__item-productsize:hover {
+		color: white;
+		background-color: #7e5c88;
+	}
+	&__item2 {
+		&-product {
+			&_date {
+				& .text {
+				& span {
+					color: #7e5c88;
+					}
+				}
+			}
+			&_name {
+				& .Name {
+					& .text {
+						& i {
+							color: #7e5c88;
+						}
+					}
+				}
+			}
+			& .text {
+				color: #a09a9a;
+			}
+		}
+	}
+}
+.footer {
+	& .link--icon {
+		& i {
+			&:hover {
+				color: #7e5c88;
+			}
+		}
+	}
+}
+.text--color {
+	color: #979797;
+}
