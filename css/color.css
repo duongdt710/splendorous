@@ -21,17 +21,17 @@
   color: white;
 }
 
-.content__item-productsize:hover {
+.content-product2:hover {
   color: white;
   background-color: #7e5c88;
 }
-.content__item2-product_date .text span {
+.content__item2 .col3 .text span {
   color: #7e5c88;
 }
-.content__item2-product_name .Name .text i {
+.content__item2 .row3 .Name .text i {
   color: #7e5c88;
 }
-.content__item2-product .text {
+.content__item2 .text {
   color: #a09a9a;
 }
 
@@ -39,7 +39,7 @@
   color: #7e5c88;
 }
 
-.text--color {
+.text-color {
   color: #979797;
 }
 

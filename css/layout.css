@@ -65,17 +65,17 @@ body {
   border-bottom: 1px solid #ddd;
   margin-left: 50px;
 }
-.content__item-product {
+.content-product {
   display: flex;
 }
-.content__item-productsize {
+.content-product2 {
   padding: 15px 0 15px;
 }
-.content__item-productsize .text {
+.content-product2 .text {
   padding-bottom: 8px;
   font-weight: bold;
 }
-.content__item-productsize .text--color {
+.content-product2 .text-color {
   padding-top: 8px;
 }
 .content .title {
@@ -95,40 +95,40 @@ body {
 .content__item2 {
   display: flex;
 }
-.content__item2-product_date .text {
+.content__item2 .col3 .text {
   width: 225px;
   font-size: 14px;
   padding-top: 15px;
 }
-.content__item2-product_date .text span {
+.content__item2 .col3 .text span {
   font-weight: bold;
 }
-.content__item2-product_name .Name {
+.content__item2 .row3 .Name {
   display: flex;
   width: 225px;
 }
-.content__item2-product_name .Name img {
+.content__item2 .row3 .Name img {
   border: 1px solid #ddd;
   padding: 4px;
 }
-.content__item2-product_name .Name:not(:last-child) {
+.content__item2 .row3 .Name:not(:last-child) {
   padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
 }
-.content__item2-product_name .Name:not(:first-child) {
+.content__item2 .row3 .Name:not(:first-child) {
   padding-top: 15px;
 }
-.content__item2-product_name .Name .text {
+.content__item2 .row3 .Name .text {
   font-size: 14px;
   padding-left: 3px;
 }
-.content__item2-product_name .Name .text span {
+.content__item2 .row3 .Name .text span {
   font-weight: bold;
 }
-.content__item2-product_name .Name .text p {
+.content__item2 .row3 .Name .text p {
   margin: 0;
 }
-.content__item2-product_name .Name .text a {
+.content__item2 .row3 .Name .text a {
   text-decoration: none;
 }
 
